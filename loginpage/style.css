@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+body {
+    background-image: url("images/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.container {
+    width: 400px;
+    padding: 50px;
+    background-color: rgba(21, 27, 28, .8);
+    margin: 100px auto;
+}
+
+.container h2 {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+form {}
+
+form input {
+    width: 100%;
+    padding: 15px 10px;
+    color: #B7B9B8;
+    background-color: rgba(21, 27, 28, .3);
+    margin-top: 15px;
+    border: 1px solid #B7B9B8;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+form button[type="submit"] {
+    width: 100%;
+    padding: 10px 10px;
+    background: #C11119;
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+form p {
+    text-align: center;
+    margin: 10px auto;
+    color: #B7B9B8;
+}
+
+.sign-in-code {
+    width: 100%;
+    padding: 10px 10px;
+    background-color: rgba(55, 56, 58, .6);
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.forget-pass {
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 15px;
+    margin: 10px auto;
+    text-decoration: none;
+    text-align: center;
+}
+
+.rememberme {}
+
+.rememberme input {
+    border: none;
+    background: #ffffff;
+    margin-top: 10px;
+}
+
+.rememberme label {
+    color: #ffffff;
+    margin-left: 7px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.sign-up-now {
+    display: flex;
+    margin: 10px 0;
+}
+
+.sign-up-now p {
+    color: #BABAB9;
+}
+
+.sign-up-now a {
+    color: #ffffff;
+    font-weight: 700;
+    margin-left: 4px;
+    text-decoration: none;
+}
+
+.recaptcha-terms-of-use {
+    display: flex;
+    margin: 20px 0;
+}
+
+.recaptcha-terms-of-use p {
+    color: #B7B9B8;
+    font-size: 14px;
+}
+
+.recaptcha-terms-of-use a {
+    text-decoration: none;
+    color: #0080FF;
+}
