@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.image-gallery {
+    width: 900px;
+    margin: 100px auto;
+}
+
+.single-item {
+    float: left;
+    width: 217px;
+    height: 193px;
+    border: 1px solid #e3e2e2;
+    margin-right: 10px;
+    text-align: center;
+    color: #000000;
+    font-size: 14px;
+}
+.single-item:hover{
+    border: 1px solid #777777;
+}
+.single-item:nth-child(4) {
+    margin-right: 0;
+}
+.single-item img {
+    width: 100%;
+}
