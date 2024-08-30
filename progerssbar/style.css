@@ -40,7 +40,6 @@
     width: 0;
     height: 25px;
     border-radius: 25px;
-
     animation-duration: 3s;
     animation-timing-function: ease;
     animation-delay: 1s;
@@ -58,3 +57,4 @@
         background-color: orange;
     }
 }
+
