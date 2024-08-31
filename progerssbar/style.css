@@ -30,7 +30,6 @@
     height: 25px;
     border-radius: 25px;
 }
-
 .skills ul li::after {
     content: "";
     position: absolute;
@@ -47,6 +46,7 @@
     animation-direction: normal;
     animation-fill-mode: forwards
 }
+
 
 .skills li.html::after {
     animation-name: html;
