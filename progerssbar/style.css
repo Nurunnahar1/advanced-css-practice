@@ -51,10 +51,11 @@
 .skills li.html::after {
     animation-name: html;
 }
+
+
 @keyframes html {
     to {
         width: 80%;
         background-color: orange;
     }
 }
-
