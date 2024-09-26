@@ -1,0 +1,45 @@
+h2 {}
+
+p {}
+
+.grid_container {
+    display: grid;
+    grid-template-areas:
+        'header header header  header header'
+        'menu    menu  menu    menu   menu'
+        'sidebar main  main    main   main' 
+        'footer  footer footer footer footer'
+
+
+    ; 
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    gap: 10px;
+    background-color: blue;
+    padding: 10px; 
+}
+.grid_container >div{
+    background-color: cadetblue;
+    color: aliceblue;
+    text-align: center;
+    padding: 30px;
+}
+
+.item1 {
+    grid-area: header; 
+}
+
+.item2 {
+    grid-area: menu; 
+}
+
+.item3 {
+    grid-area: main; 
+}
+
+.item4 {
+    grid-area: sidebar; 
+}
+
+.item5 {
+    grid-area: footer; 
+}
